@@ -1,0 +1,265 @@
+@font-face {
+    font-family: 'DINNextW01-CondensedMed';
+    src: url("https://i.annihil.us/u/prod/marvel/s/fonts/terrigen/0b46a18d-fb34-4ef7-b5da-5902c510577a.eot?#iefix");
+    src: url("https://i.annihil.us/u/prod/marvel/s/fonts/terrigen/0b46a18d-fb34-4ef7-b5da-5902c510577a.eot?#iefix") format("eot"), url("https://i.annihil.us/u/prod/marvel/s/fonts/terrigen/76b8cda6-0ded-4197-acab-e314297eb90f.woff2") format("woff2"), url("https://i.annihil.us/u/prod/marvel/s/fonts/terrigen/2613a064-2962-44af-ae6f-3640e06e8dc4.woff") format("woff"), url("https://i.annihil.us/u/prod/marvel/s/fonts/terrigen/2889b152-497e-4ea3-a90d-02854d136a8d.ttf") format("truetype"), url("https://i.annihil.us/u/prod/marvel/s/fonts/terrigen/4f311da1-9ec6-4379-9621-b45be0e23abd.svg#4f311da1-9ec6-4379-9621-b45be0e23abd") format("svg");
+}
+
+@font-face {
+    font-family: 'DIN Next W01 Regular';
+    font-weight: normal;
+    font-style: normal;
+    src: url("https://i.annihil.us/u/prod/marvel/s/fonts/terrigen/da088ecc-a53c-4831-a95b-6fd81b5b338a.eot?#iefix");
+    src: url("https://i.annihil.us/u/prod/marvel/s/fonts/terrigen/da088ecc-a53c-4831-a95b-6fd81b5b338a.eot?#iefix") format("eot"), url("https://i.annihil.us/u/prod/marvel/s/fonts/terrigen/44e7b0fa-6c8d-43c2-b19e-f1e3ce9ea57c.woff2") format("woff2"), url("https://i.annihil.us/u/prod/marvel/s/fonts/terrigen/c5a7f89e-15b6-49a9-8259-5ea665e72191.woff") format("woff"), url("https://i.annihil.us/u/prod/marvel/s/fonts/terrigen/868c94b5-ca49-46b7-b62b-297f8d861125.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'DIN Next W01 Regular';
+    font-weight: bold;
+    font-style: normal;
+    src: url("https://i.annihil.us/u/prod/marvel/s/fonts/terrigen/fa5ed46b-792d-4f47-894e-fa587cf4e1cf.eot?#iefix");
+    src: url("https://i.annihil.us/u/prod/marvel/s/fonts/terrigen/fa5ed46b-792d-4f47-894e-fa587cf4e1cf.eot?#iefix") format("eot"), url("https://i.annihil.us/u/prod/marvel/s/fonts/terrigen/03008527-67bd-478e-98e3-3b56dd9a6520.woff2") format("woff2"), url("https://i.annihil.us/u/prod/marvel/s/fonts/terrigen/557f817d-9c25-4a23-baaf-a3cf84a7cd7c.woff") format("woff"), url("https://i.annihil.us/u/prod/marvel/s/fonts/terrigen/92ed1479-1d40-4a94-8baf-6abd88b17afa.ttf") format("truetype"), url("https://i.annihil.us/u/prod/marvel/s/fonts/terrigen/36ae914b-b535-47cd-b3d2-8c43073d8634.svg#36ae914b-b535-47cd-b3d2-8c43073d8634") format("svg");
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url("https://i.annihil.us/u/prod/marvel/s/fonts/terrigen/open-sans-v15-latin-regular.eot?#iefix");
+    src: url("https://i.annihil.us/u/prod/marvel/s/fonts/terrigen/open-sans-v15-latin-regular.eot?#iefix") format("eot"), url("https://i.annihil.us/u/prod/marvel/s/fonts/terrigen/open-sans-v15-latin-regular.woff2") format("woff2"), url("https://i.annihil.us/u/prod/marvel/s/fonts/terrigen/open-sans-v15-latin-regular.woff") format("woff"), url("https://i.annihil.us/u/prod/marvel/s/fonts/terrigen/open-sans-v15-latin-regular.ttf") format("truetype"), url("https://i.annihil.us/u/prod/marvel/s/fonts/terrigen/open-sans-v15-latin-regular.svg") format("svg");
+}
+
+body {
+    background-color: transparent !important;
+    min-width: 300px;
+}
+
+body::-webkit-scrollbar, iframe::-webkit-scrollbar {
+    display: none;
+}
+
+.no-js {
+    overflow: hidden !important;
+}
+
+.widget {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'DIN Next W01 Regular', 'Open Sans', sans-serif;
+    line-height: 1.3;
+    background-color: transparent !important;
+}
+
+.widget .ng-hide {
+    display: none;
+}
+
+.widget .container {
+    padding: 0 !important;
+}
+
+.widget p, .widget span {
+    color: inherit;
+    font-size: initial;
+    margin: 0;
+}
+
+.widget ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.widget ul li {
+    margin: 0;
+    padding: 0;
+}
+
+.widget ol {
+    margin: 0;
+    padding: 0;
+}
+
+.widget p {
+    padding: 0;
+    margin: 0;
+}
+
+.widget h1, .widget h2, .widget h3, .widget h4, .widget h5, .widget h6 {
+    padding: 0;
+    font-weight: normal;
+}
+
+.widget fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.widget button {
+    outline: none;
+    cursor: pointer;
+    background: none;
+    border: 0;
+    color: inherit;
+    font: inherit;
+    line-height: normal;
+    overflow: visible;
+    padding: 0;
+}
+
+.widget a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.widget figure {
+    margin: 0;
+    padding: 0;
+}
+
+.widget div {
+    margin: 0;
+    padding: 0;
+}
+
+.widget *, .widget ::after, .widget ::before {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#account-overview {
+    padding-left: 0;
+    padding-right: 0;
+    width: auto;
+    height: auto;
+    border-width: 0;
+}
+
+@media (min-width: 840px) {
+    #account-overview {
+        padding-right: 50px;
+    }
+}
+
+@media (min-width: 1241px) {
+    #account-overview {
+        padding-left: 50px;
+    }
+}
+
+#account-overview * {
+    background-color: transparent !important;
+    text-shadow: none !important;
+}
+
+#account-overview thead, #account-overview .header, #account-overview .user-info, #account-overview .lifetime-points, #account-overview .logout-link, #account-overview .points {
+    display: none !important;
+}
+
+#account-overview .user-container {
+    display: block !important;
+    width: 100% !important;
+    padding: 40px 0 0 0 !important;
+}
+
+#account-overview .user-container .points-info {
+    margin: 0 !important;
+    padding: 0 !important;
+    position: relative;
+    width: auto !important;
+}
+
+#account-overview .user-container .points-info .name {
+    font-family: "DIN Next W01 Regular" !important;
+    font-weight: bold !important;
+    font-size: 22px !important;
+    line-height: 26px !important;
+    letter-spacing: 0 !important;
+    text-transform: uppercase !important;
+    color: #ae8b50 !important;
+    margin-bottom: 20px;
+    text-align: left !important;
+}
+
+#account-overview .user-container .points-info .redeemable-points {
+    margin: 0 0 20px !important;
+}
+
+#account-overview .user-container .points-info .redeemable-points, #account-overview .user-container .points-info .redeemable-points * {
+    font-family: "DIN Next W01 Regular" !important;
+    font-weight: bold !important;
+    font-size: 18px !important;
+    line-height: 22px !important;
+    letter-spacing: 0 !important;
+    text-transform: uppercase !important;
+    text-align: left !important;
+    color: #fff !important;
+    display: block !important;
+}
+
+#account-overview .user-container .points-info .fan-level {
+    margin-top: 0 !important;
+    position: absolute;
+    top: -40px;
+    left: 0;
+}
+
+#account-overview .user-container .points-info .fan-level .icon {
+    display: none !important;
+}
+
+#account-overview .user-container .points-info .fan-level .small {
+    font: normal 20px/20px "DINNextW01-CondensedMed" !important;
+    letter-spacing: 1px !important;
+    text-transform: uppercase !important;
+    color: #eb2328 !important;
+    margin-top: 0 !important;
+}
+
+#account-overview .progress-bar-container {
+    display: block !important;
+    width: 100% !important;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    padding: 0 !important;
+    height: auto !important;
+}
+
+#account-overview .progress-bar-container .ct-progress-bar {
+    height: 20px;
+    margin: 0;
+    background-color: #ebd1a5 !important;
+    border-radius: 0 !important;
+}
+
+#account-overview .progress-bar-container .ct-progress-bar .bar {
+    height: 20px;
+    margin: 0;
+    background-color: #ae8b50 !important;
+    border-radius: 0 !important;
+}
+
+#account-overview .progress-bar-container .logout-link-container, #account-overview .progress-bar-container .fan-level, #account-overview .progress-bar-container .bar span {
+    display: none !important;
+}
+
+#account-overview .progress-bar-container .fan-level-progress-details {
+    text-align: right !important;
+}
+
+#account-overview .progress-bar-container .fan-level-progress {
+    margin-top: 10px;
+    padding: 0;
+}
+
+#account-overview .progress-bar-container .fan-level-progress, #account-overview .progress-bar-container .fan-level-progress span {
+    font-family: "DIN Next W01 Regular" !important;
+    font-weight: bold !important;
+    font-size: 18px !important;
+    line-height: 22px !important;
+    letter-spacing: 0 !important;
+    text-transform: uppercase !important;
+    color: #fff !important;
+    float: none;
+}
